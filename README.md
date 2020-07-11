@@ -3,7 +3,5 @@ Fellowship AI application
 Nicholas Harris
 Nickharris93@gmail.com
 
-The project will use _CelebA_ dataset for facial images.
-
-My interpretation of the challenge will focus on a specific implementation: Automatic portrait segmentation for facial images.
-This type of model is applicable to some real world use cases, such as custom backgrounds and automatic cropping.
+The project will use _CelebA_ dataset for facial images. I chose to apply Google's DeepLab-V3+ to selected images in the dataset.
+A generic FCN-8 architecture was also created as a way to better understand the upsampling paths involved. 
